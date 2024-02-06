@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    background: linear-gradient(125deg, #e61414, #2716c0);
+}
+.todo-container{
+    width: 100%;
+    background: #fff;
+    max-width: 400px;
+    border-radius: 5px;
+    margin: 100px auto 20px;
+    padding: 30px 30px 20px;
+}
+.todo-container h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-container .main-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+.main-row input{
+    flex: 1;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+.main-row button{
+    margin-left: 10px;
+    background-color: lightgreen;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+ul li{
+    list-style-type: none;
+    display: flex;
+
+
+    cursor: pointer;
+    padding: 12px 8px 12px 50px;
+    position: relative;
+}
+ul li::before{
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-image: url('images/circle.png');
+    background-size: cover;
+    background-position: center;
+
+}
