@@ -44,22 +44,24 @@
     border: none;
     padding: 5px;
 }
-ul li{
-    list-style-type: none;
-    display: flex;
+.list-container{
 
-
-    cursor: pointer;
-    padding: 12px 8px 12px 50px;
-    position: relative;
 }
-ul li::before{
-    content: "";
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    background-image: url('images/circle.png');
-    background-size: cover;
-    background-position: center;
+#main{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
 
+li{
+    margin-right: 10px;
+    margin-top: 6px;
+    list-style: none;
+}
+li button {
+    margin-left: 10px;
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px;
 }
